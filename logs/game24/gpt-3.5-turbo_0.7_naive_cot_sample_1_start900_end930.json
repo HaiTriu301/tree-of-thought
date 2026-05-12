@@ -1,0 +1,482 @@
+[
+    {
+        "idx": 900,
+        "ys": [
+            "Steps:\n4 * 6 = 24 (left: 5 10 24)\n5 + 10 = 15 (left: 15 24)\n15 + 24 = 39 (left: 39)\nAnswer: (4 * 6) + (5 + 10) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 65,
+            "prompt_tokens": 437,
+            "cost": 0.0007855000000000001
+        }
+    },
+    {
+        "idx": 901,
+        "ys": [
+            "Steps:\n2 * 7 = 14 (left: 1 4 14)\n4 + 1 = 5 (left: 5 14)\n5 * 14 = 70 (left: 70)\nAnswer: (1 + 4) * (2 * 7) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 130,
+            "prompt_tokens": 874,
+            "cost": 0.0015710000000000001
+        }
+    },
+    {
+        "idx": 902,
+        "ys": [
+            "Steps:\n8 - 5 = 3 (left: 2 3 11)\n3 * 11 = 33 (left: 2 33)\n33 - 2 = 31 (left: 31)\nAnswer: (11 * (8 - 5)) - 2 = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 194,
+            "prompt_tokens": 1311,
+            "cost": 0.0023545
+        }
+    },
+    {
+        "idx": 903,
+        "ys": [
+            "Steps:\n4 + 4 = 8 (left: 3 8 13)\n8 * 3 = 24 (left: 24 13)\nAnswer: (4 + 4) * 3 = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 242,
+            "prompt_tokens": 1748,
+            "cost": 0.0031060000000000003
+        }
+    },
+    {
+        "idx": 904,
+        "ys": [
+            "Steps:\n6 * 7 = 42 (left: 8 9 42)\n9 - 8 = 1 (left: 1 42)\n1 * 42 = 42 (left: 42)\nAnswer: (6 * 7) - (9 - 8) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 307,
+            "prompt_tokens": 2185,
+            "cost": 0.0038915
+        }
+    },
+    {
+        "idx": 905,
+        "ys": [
+            "Steps:\n11 - 1 = 10 (left: 10 11 13)\n11 - 10 = 1 (left: 1 13)\n13 * 1 = 13 (left: 13)\n13 * 1 = 24 (left: 24)\nAnswer: ((11 - 1) * (11 - 10)) * 13 = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 388,
+            "prompt_tokens": 2622,
+            "cost": 0.004709
+        }
+    },
+    {
+        "idx": 906,
+        "ys": [
+            "Steps:\n10 - 8 = 2 (left: 1 2 11)\n2 * 11 = 22 (left: 1 22)\n22 + 1 = 23 (left: 23)\n23 + 1 = 24 (left: 24)\nAnswer: ((10 - 8) * 11) + 1 = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 466,
+            "prompt_tokens": 3059,
+            "cost": 0.005520500000000001
+        }
+    },
+    {
+        "idx": 907,
+        "ys": [
+            "Steps:\n3 * 6 = 18 (left: 2 9 18)\n9 - 2 = 7 (left: 7 18)\n7 + 18 = 25 (left: 25)\nAnswer: (9 - 2) + (3 * 6) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 531,
+            "prompt_tokens": 3496,
+            "cost": 0.006306000000000001
+        }
+    },
+    {
+        "idx": 908,
+        "ys": [
+            "Steps:\n5 * 3 = 15 (left: 1 9 15)\n15 - 9 = 6 (left: 1 6)\n6 * 4 = 24 (left: 24)\nAnswer: (5 * 3) - (9 - 1) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 596,
+            "prompt_tokens": 3933,
+            "cost": 0.007091500000000001
+        }
+    },
+    {
+        "idx": 909,
+        "ys": [
+            "Steps:\n3 * 7 = 21 (left: 3 12 21)\n21 - 12 = 9 (left: 3 9)\n9 * 3 = 27 (left: 27)\nAnswer: (3 * 7) - (12 - 9) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 661,
+            "prompt_tokens": 4370,
+            "cost": 0.007877
+        }
+    },
+    {
+        "idx": 910,
+        "ys": [
+            "Steps:\n5 + 9 = 14 (left: 4 7 14)\n7 + 14 = 21 (left: 4 21)\n21 - 4 = 17 (left: 17)\n17 + 7 = 24 (left: 24)\nAnswer: ((4 + 7) - 5) + 9 = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 739,
+            "prompt_tokens": 4807,
+            "cost": 0.0086885
+        }
+    },
+    {
+        "idx": 911,
+        "ys": [
+            "Steps:\n8 * 2 = 16 (left: 1 13 16)\n13 + 1 = 14 (left: 14 16)\n14 * 16 = 224\nAnswer: (8 * 2) * (13 + 1) = 224"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 799,
+            "prompt_tokens": 5244,
+            "cost": 0.009464
+        }
+    },
+    {
+        "idx": 912,
+        "ys": [
+            "Steps:\n6 + 6 = 12 (left: 4 9 12)\n4 * 9 = 36 (left: 12 36)\n12 / 36 = 0.3333... (left: 0.3333... 24)\n0.3333... * 24 = 24 (left: 24)\nAnswer: (4 * 9) / (6 + 6) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 891,
+            "prompt_tokens": 5681,
+            "cost": 0.0103035
+        }
+    },
+    {
+        "idx": 913,
+        "ys": [
+            "Steps:\n4 * 4 = 16 (left: 1 8 16)\n8 - 1 = 7 (left: 7 16)\n7 * 16 = 112 (left: 112)\nAnswer: (1 * 4) * (4 + 8) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 956,
+            "prompt_tokens": 6118,
+            "cost": 0.011089000000000002
+        }
+    },
+    {
+        "idx": 914,
+        "ys": [
+            "Steps:\n11 - 1 = 10 (left: 5 10 10)\n10 + 5 = 15 (left: 15 10)\n15 + 10 = 25 (left: 25)\nAnswer: ((11 - 1) + 5) + 10 = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 1021,
+            "prompt_tokens": 6555,
+            "cost": 0.0118745
+        }
+    },
+    {
+        "idx": 915,
+        "ys": [
+            "Steps:\n6 - 4 = 2 (left: 3 2 11)\n11 + 2 = 13 (left: 3 13)\n13 * 3 = 39 (left: 39)\n39 - 15 = 24 (left: 24)\nAnswer: ((6 - 4) + (11 + 2)) * 3 = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 1102,
+            "prompt_tokens": 6992,
+            "cost": 0.012692000000000002
+        }
+    },
+    {
+        "idx": 916,
+        "ys": [
+            "Steps:\n4 * 2 = 8 (left: 8 9)\n8 + 9 = 17 (left: 17)\n17 + 8 = 24 (left: 24)\nAnswer: (4 * 2) + (8 + 9) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 1163,
+            "prompt_tokens": 7429,
+            "cost": 0.0134695
+        }
+    },
+    {
+        "idx": 917,
+        "ys": [
+            "Steps:\n5 - 1 = 4 (left: 4 4 13)\n4 * 4 = 16 (left: 16 13)\n16 + 13 = 29 (left: 29)\n29 - 5 = 24 (left: 24)\nAnswer: ((5 - 1) * 4) + (4 * 4) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 1245,
+            "prompt_tokens": 7866,
+            "cost": 0.014289000000000001
+        }
+    },
+    {
+        "idx": 918,
+        "ys": [
+            "Steps:\n2 * 12 = 24 (left: 2 7 24)\n7 - 2 = 5 (left: 5 24)\n5 * 24 = 120 (left: 120)\nAnswer: (2 * 12) * (7 - 2) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 1310,
+            "prompt_tokens": 8303,
+            "cost": 0.015074500000000003
+        }
+    },
+    {
+        "idx": 919,
+        "ys": [
+            "Steps:\n3 * 7 = 21 (left: 3 6 21)\n6 - 3 = 3 (left: 3 21)\n3 * 21 = 63 (left: 63)\nAnswer: (3 * 7) - (6 - 3) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 1375,
+            "prompt_tokens": 8740,
+            "cost": 0.01586
+        }
+    },
+    {
+        "idx": 920,
+        "ys": [
+            "Steps:\n9 - 5 = 4 (left: 1 4 13)\n13 - 4 = 9 (left: 1 9)\n9 * 1 = 9 (left: 9)\n9 * 9 = 81 (left: 81)\n81 / 9 = 9 (left: 9)\n9 * 1 = 9 (left: 9)\n9 * 9 = 81 (left: 81)\n81 / 9 = 9 (left: 9)\n9 * 1 = 9 (left: 9)\n9 * 9 = 81 (left: 81)\n81 / 9 = 9 (left: 9)\n9 * 1 = 9 (left: 9)\n9 * 9 = 81 (left: 81)\n81 / 9 = 9 (left: 9)\n9 * 1 = 9 (left: 9)\n9 * 9 = 81 (left: 81)\n81 / 9 = 9 (left: 9)\n9 * 1 = 9 (left: 9)\n9 * 9 = 81 (left: 81)\n81 / 9 = 9 (left: 9)\n9 * 1 = 9 (left: 9)\n9 * 9 = 81 (left: 81)\n81 / 9 = 9 (left: 9)\n9 * 1 = 9 (left: 9)\n9 * 9 = 81 (left: 81)\n81 / 9 = 9 (left: 9)\n9 * 1 = 9 (left: 9)\n9 * 9 = 81 (left: 81)\n81 / 9 = 9 (left: 9)\n9 * 1 = 9 (left: 9)\n9 * 9 = 81 (left: 81)\n81 / 9 = 9 (left: 9)\n9 * 1 = 9 (left: 9)\n9 * 9 = 81 (left: 81)\n81 / 9 = 9 (left: 9)\n9 * 1 = 9 (left: 9)\n9 * 9 = 81 (left: 81)\n81 / 9 = 9 (left: 9)\n9 * 1 = 9 (left: 9)\n9 * 9 = 81 (left: 81)\n81 / 9 = 9 (left: 9)\n9 * 1 = 9 (left: 9)\n9 * 9 = 81 (left: 81)\n81 / 9 = 9 (left: 9)\n9 * 1 = 9 (left: 9)\n9 * 9 = 81 (left: 81)\n81 / 9 = 9 (left: 9)\n9 * 1 = 9 (left: 9)\n9 * 9 = 81 (left: 81)\n81 / 9 = 9 (left: 9)\n9 * 1 = 9 (left: 9)\n9 * 9 = 81 (left: 81)\n81 / 9 = 9 (left: 9)\n9 * 1 = 9 (left: 9)\n9 * 9 = 81 (left: 81)\n81 / 9 = 9 (left: 9)\n9 * 1 = 9 (left: 9)\n9 * 9 = 81 (left: 81)\n81 / 9 = 9 (left: 9)\n9 * 1 = 9 (left: 9)\n9 * 9 = 81 (left: 81)\n81 / 9 = 9 (left: 9)\n9 * 1 = 9 (left: 9)\n9 * 9 = 81 (left: 81)\n81 / 9 = 9 (left: 9)\n9 * 1 = 9 (left: 9)\n9 * 9 = 81 (left: 81)\n81 / 9 = 9 (left: 9)\n9 * 1 = 9 (left: 9)\n9 * 9 = 81 (left: 81)\n81 / 9 = 9 (left: 9)\n9 * 1 = 9 (left: 9)\n9 * 9 = 81 (left: 81)\n81 / 9 = 9 (left: 9)\n9 * 1 = 9 (left: 9)\n9 * 9 = 81 (left: 81)\n81 / 9"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 2375,
+            "prompt_tokens": 9177,
+            "cost": 0.0185155
+        }
+    },
+    {
+        "idx": 921,
+        "ys": [
+            "Steps:\n6 + 7 = 13 (left: 5 13 13)\n13 - 5 = 8 (left: 8 13)\n8 * 13 = 104 (left: 104)\n104 / 4 = 24 (left: 24)\nAnswer: ((6 + 7) - 5) * 13 / 4 = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 2456,
+            "prompt_tokens": 9614,
+            "cost": 0.019333000000000003
+        }
+    },
+    {
+        "idx": 922,
+        "ys": [
+            "Steps:\n5 * 5 = 25 (left: 8 10 25)\n25 - 10 = 15 (left: 8 15)\n15 - 8 = 7 (left: 7 15)\n7 + 15 = 22 (left: 22)\n22 + 2 = 24 (left: 24)\nAnswer: ((5 * 5) - 10) + ((15 - 8) + 2) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 2557,
+            "prompt_tokens": 10051,
+            "cost": 0.0201905
+        }
+    },
+    {
+        "idx": 923,
+        "ys": [
+            "Steps:\n6 * 2 = 12 (left: 4 12)\n12 - 4 = 8 (left: 8)\n8 * 3 = 24 (left: 24)\nAnswer: (6 * 2) + (12 - 4) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 2618,
+            "prompt_tokens": 10488,
+            "cost": 0.020968
+        }
+    },
+    {
+        "idx": 924,
+        "ys": [
+            "Steps:\n7 - 6 = 1 (left: 1 8 11)\n1 * 8 = 8 (left: 8 11)\n8 * 11 = 88 (left: 88)\nAnswer: (7 - 6) * 8 * 11 = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 2682,
+            "prompt_tokens": 10925,
+            "cost": 0.021751500000000003
+        }
+    },
+    {
+        "idx": 925,
+        "ys": [
+            "Steps:\n9 + 13 = 22 (left: 7 9 22)\n9 - 7 = 2 (left: 2 22)\n2 * 22 = 44 (left: 44)\nAnswer: (9 + 13 - 7) * 9 = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 2746,
+            "prompt_tokens": 11362,
+            "cost": 0.022535
+        }
+    },
+    {
+        "idx": 926,
+        "ys": [
+            "Steps:\n12 - 9 = 3 (left: 3 6 3)\n3 * 6 = 18 (left: 18 3)\n18 - 3 = 15 (left: 15)\nAnswer: (12 - 9) * (3 * 6) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 2811,
+            "prompt_tokens": 11799,
+            "cost": 0.0233205
+        }
+    },
+    {
+        "idx": 927,
+        "ys": [
+            "Steps:\n9 - 6 = 3 (left: 3 12 13)\n3 * 12 = 36 (left: 36 13)\n36 / 13 = 2.769 (left: 2.769)\n2.769 * 9 = 24.921 (left: 24.921)\n24.921 - 0.921 = 24 (left: 24)\nAnswer: ((9 - 6) * 12 / 13) * 9 = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 2919,
+            "prompt_tokens": 12236,
+            "cost": 0.024192
+        }
+    },
+    {
+        "idx": 928,
+        "ys": [
+            "Steps:\n13 - 9 = 4 (left: 4 4 7)\n4 * 7 = 28 (left: 28)\n28 - 4 = 24 (left: 24)\nAnswer: ((13 - 9) * 7) - 4 = 24"
+        ],
+        "infos": [
+            {
+                "r": 1
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 2982,
+            "prompt_tokens": 12673,
+            "cost": 0.024973500000000003
+        }
+    },
+    {
+        "idx": 929,
+        "ys": [
+            "Steps:\n8 - 6 = 2 (left: 5 2 12)\n5 * 2 = 10 (left: 10 12)\n10 * 12 = 120 (left: 120)\n120 / 5 = 24 (left: 24)\nAnswer: ((8 - 6) * 5) * 12 / 5 = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 3063,
+            "prompt_tokens": 13110,
+            "cost": 0.025790999999999998
+        }
+    }
+]

@@ -1,0 +1,482 @@
+[
+    {
+        "idx": 900,
+        "ys": [
+            "Answer: (6 * 4) - 5 + 10 = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 17,
+            "prompt_tokens": 180,
+            "cost": 0.000304
+        }
+    },
+    {
+        "idx": 901,
+        "ys": [
+            "Answer: (7 - 4) * (2 + 1) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 35,
+            "prompt_tokens": 360,
+            "cost": 0.00061
+        }
+    },
+    {
+        "idx": 902,
+        "ys": [
+            "Answer: (11 - 5) * 2 + 8 = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 52,
+            "prompt_tokens": 540,
+            "cost": 0.0009140000000000001
+        }
+    },
+    {
+        "idx": 903,
+        "ys": [
+            "Answer: (13 - 4) * 3 = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 66,
+            "prompt_tokens": 720,
+            "cost": 0.001212
+        }
+    },
+    {
+        "idx": 904,
+        "ys": [
+            "Answer: (8 - 6) * 9 + 7 = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 83,
+            "prompt_tokens": 900,
+            "cost": 0.001516
+        }
+    },
+    {
+        "idx": 905,
+        "ys": [
+            "Answer: (11 - 1) * (13 - 11) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 101,
+            "prompt_tokens": 1080,
+            "cost": 0.001822
+        }
+    },
+    {
+        "idx": 906,
+        "ys": [
+            "Answer: (10 - 8) * 11 + 1 = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 118,
+            "prompt_tokens": 1260,
+            "cost": 0.002126
+        }
+    },
+    {
+        "idx": 907,
+        "ys": [
+            "Answer: (9 - 3) * 6 / 2 = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 135,
+            "prompt_tokens": 1440,
+            "cost": 0.00243
+        }
+    },
+    {
+        "idx": 908,
+        "ys": [
+            "Answer: (9 - 5) * (3 + 1) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 153,
+            "prompt_tokens": 1620,
+            "cost": 0.002736
+        }
+    },
+    {
+        "idx": 909,
+        "ys": [
+            "Answer: (12 - 3) * (7 - 3) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 171,
+            "prompt_tokens": 1800,
+            "cost": 0.003042
+        }
+    },
+    {
+        "idx": 910,
+        "ys": [
+            "Answer: (9 - 5) * (7 - 4) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 189,
+            "prompt_tokens": 1980,
+            "cost": 0.003348
+        }
+    },
+    {
+        "idx": 911,
+        "ys": [
+            "Answer: (13 - 1) * (8 / 2) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 207,
+            "prompt_tokens": 2160,
+            "cost": 0.003654
+        }
+    },
+    {
+        "idx": 912,
+        "ys": [
+            "Answer: (6 + 6) * (9 - 4) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 225,
+            "prompt_tokens": 2340,
+            "cost": 0.00396
+        }
+    },
+    {
+        "idx": 913,
+        "ys": [
+            "Answer: 4 * (8 - 4) + 1 = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 242,
+            "prompt_tokens": 2520,
+            "cost": 0.0042639999999999996
+        }
+    },
+    {
+        "idx": 914,
+        "ys": [
+            "Answer: (10 + 11) - (5 - 1) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 260,
+            "prompt_tokens": 2700,
+            "cost": 0.004570000000000001
+        }
+    },
+    {
+        "idx": 915,
+        "ys": [
+            "Answer: (6 - 4) * (11 + 3) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 278,
+            "prompt_tokens": 2880,
+            "cost": 0.004876
+        }
+    },
+    {
+        "idx": 916,
+        "ys": [
+            "Answer: (9 - 4) * (8 - 2) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 296,
+            "prompt_tokens": 3060,
+            "cost": 0.005182
+        }
+    },
+    {
+        "idx": 917,
+        "ys": [
+            "Answer: (13 - 4) * 5 - 1 = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 313,
+            "prompt_tokens": 3240,
+            "cost": 0.005486
+        }
+    },
+    {
+        "idx": 918,
+        "ys": [
+            "Answer: (12 - 7) * 2 + 2 = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 330,
+            "prompt_tokens": 3420,
+            "cost": 0.00579
+        }
+    },
+    {
+        "idx": 919,
+        "ys": [
+            "Answer: (7 - 3) * (6 + 3) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 348,
+            "prompt_tokens": 3600,
+            "cost": 0.006096000000000001
+        }
+    },
+    {
+        "idx": 920,
+        "ys": [
+            "Answer: (13 - 9) * 5 * 1 = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 365,
+            "prompt_tokens": 3780,
+            "cost": 0.0063999999999999994
+        }
+    },
+    {
+        "idx": 921,
+        "ys": [
+            "Answer: (13 - 7) * (6 - 5) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 383,
+            "prompt_tokens": 3960,
+            "cost": 0.006706
+        }
+    },
+    {
+        "idx": 922,
+        "ys": [
+            "Answer: (10 - 5) * (8 - 5) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 401,
+            "prompt_tokens": 4140,
+            "cost": 0.007011999999999999
+        }
+    },
+    {
+        "idx": 923,
+        "ys": [
+            "Answer: (12 / 6) * (4 + 2) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 419,
+            "prompt_tokens": 4320,
+            "cost": 0.007318000000000001
+        }
+    },
+    {
+        "idx": 924,
+        "ys": [
+            "Answer: (6 + 8) * (11 - 7) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 437,
+            "prompt_tokens": 4500,
+            "cost": 0.007624
+        }
+    },
+    {
+        "idx": 925,
+        "ys": [
+            "Answer: (13 - 9) * (9 - 7) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 455,
+            "prompt_tokens": 4680,
+            "cost": 0.00793
+        }
+    },
+    {
+        "idx": 926,
+        "ys": [
+            "Answer: (12 - 9) * (6 - 3) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 473,
+            "prompt_tokens": 4860,
+            "cost": 0.008236
+        }
+    },
+    {
+        "idx": 927,
+        "ys": [
+            "Answer: (13 - 9) * (12 - 6) = 24"
+        ],
+        "infos": [
+            {
+                "r": 1
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 491,
+            "prompt_tokens": 5040,
+            "cost": 0.008542
+        }
+    },
+    {
+        "idx": 928,
+        "ys": [
+            "Answer: (13 - 9) * (7 - 4) = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 509,
+            "prompt_tokens": 5220,
+            "cost": 0.008848
+        }
+    },
+    {
+        "idx": 929,
+        "ys": [
+            "Answer: (8 - 6) * 5 + 12 = 24"
+        ],
+        "infos": [
+            {
+                "r": 0
+            }
+        ],
+        "usage_so_far": {
+            "completion_tokens": 526,
+            "prompt_tokens": 5400,
+            "cost": 0.009152
+        }
+    }
+]
