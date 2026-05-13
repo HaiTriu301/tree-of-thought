@@ -16,18 +16,18 @@ def calculate_accuracy(file_path):
     with open(file_path, 'r') as f:
         data = json.load(f)
     
-    total_correct = 0
-    total_responses = 0
+    total_problems = 0
+    correct_problems = 0
     for item in data:
+        total_problems += 1
         infos = item.get('infos', [])
-        for info in infos:
-            r = info.get('r', 0)
-            total_responses += 1
-            if r == 1:
-                total_correct += 1
+        # Check if problem is solved (at least one response is correct)
+        has_correct = any(info.get('r', 0) == 1 for info in infos)
+        if has_correct:
+            correct_problems += 1
     
-    accuracy = total_correct / total_responses if total_responses > 0 else 0
-    return accuracy, total_responses
+    accuracy = correct_problems / total_problems if total_problems > 0 else 0
+    return accuracy, total_problems
 
 # Calculate accuracies
 accuracies = {}
@@ -36,7 +36,7 @@ for method, filename in files.items():
     if os.path.exists(file_path):
         acc, total = calculate_accuracy(file_path)
         accuracies[method] = acc
-        print(f"{method}: Accuracy = {acc:.3f} ({total} responses)")
+        print(f"{method}: Accuracy = {acc:.3f} ({total} problems)")
     else:
         print(f"File not found: {file_path}")
         accuracies[method] = 0
@@ -50,9 +50,9 @@ plt.figure(figsize=(10, 6))  # Larger figure
 plt.bar(methods, acc_values, color=['#7f7f7f', '#3273dc', '#4daf4a', '#ff7f00', '#984ea3'], width=0.6)
 plt.xlabel('Methods')
 plt.ylabel('Accuracy (%)')
-# plt.title('Accuracy Comparison: IO, CoT, ToT-1, ToT-3, ToT-5 (30 samples, GPT-3.5)')
-plt.ylim(0, 0.2)  # Max 20% for better balance
-plt.yticks([0, 0.05, 0.1, 0.15, 0.2], ['0%', '5%', '10%', '15%', '20%'])
+plt.title('Problem-Level Accuracy Comparison: IO, CoT, ToT-1, ToT-3, ToT-5')
+plt.ylim(0, 0.5)  # Max 50%
+plt.yticks([0, 0.1, 0.2, 0.3, 0.4, 0.5], ['0%', '10%', '20%', '30%', '40%', '50%'])
 plt.grid(axis='y', linestyle='--', alpha=0.7)
 
 # Add value labels on bars (as %)
