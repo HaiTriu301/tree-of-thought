@@ -1,5 +1,10 @@
 import json
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+
+# Larger text so labels stay readable when the figure is scaled to one column
+plt.rcParams.update({'font.size': 16})
 import os
 
 log_dir = 'logs/game24'
@@ -46,7 +51,7 @@ def main():
     bars = plt.bar(labels, values, color=['#7f7f7f', '#3273dc', '#4daf4a'], width=0.6)
     plt.yscale('log')
     plt.xlabel('Method')
-    plt.ylabel('Cost (log scale)')
+    plt.ylabel('Cost ($, log scale)')
     # plt.title('Cost Comparison (log scale): IO, CoT, ToT-5')
     plt.grid(axis='y', linestyle='--', alpha=0.7)
 
@@ -60,10 +65,11 @@ def main():
         else:
             label_y = min_value / 5
         plt.text(bar.get_x() + bar.get_width() / 2, label_y, f'{value:.4f}',
-                 ha='center', va='bottom', fontsize=10)
+                 ha='center', va='bottom')
 
     plt.tight_layout()
-    plt.show()
+    plt.savefig('fig_cost.png', dpi=150)
+    print('Saved fig_cost.png')
 
 
 if __name__ == '__main__':

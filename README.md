@@ -58,7 +58,7 @@ If a run is interrupted, restart it from the first problem: the token counter li
 
 ```bash
 python plot_accuracy.py        # Fig. 1 -> fig_accuracy.png
-python plot_cost_logscale.py   # Fig. 2 (shown in a window)
+python plot_cost_logscale.py   # Fig. 2 -> fig_cost.png
 python plot_beam_accuracy.py   # Fig. 3 -> fig_beam_accuracy.png
 python plot_scatter.py         # Fig. 4 -> fig_accuracy_vs_cost.png
 ```
