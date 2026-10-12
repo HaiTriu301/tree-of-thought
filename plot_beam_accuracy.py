@@ -1,13 +1,20 @@
 import json
-import matplotlib.pyplot as plt
 import os
+
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+
+# Larger text so labels stay readable when the figure is scaled to one column
+plt.rcParams.update({'font.size': 15})
 
 log_dir = 'logs/game24'
 files = {
-    1: 'gpt-3.5-turbo_0.7_propose1_value3_greedy1_start900_end901.json',
+    # Beam width 1 removed: it was only run on 1 problem (start900_end901)
     3: 'gpt-3.5-turbo_0.7_propose1_value3_greedy3_start900_end930.json',
     5: 'gpt-3.5-turbo_0.7_propose1_value3_greedy5_start900_end930.json'
 }
+EXPECTED_PROBLEMS = 30
 
 
 def calculate_accuracy(file_path):
@@ -25,6 +32,8 @@ def calculate_accuracy(file_path):
         if any(accs):  # nếu có bất kì r=1 nào
             any_correct += 1
 
+    if total_items != EXPECTED_PROBLEMS:
+        print(f'WARNING: {file_path} has {total_items} problems, expected {EXPECTED_PROBLEMS}')
     if total_items == 0:
         return 0
     return any_correct / total_items
@@ -49,19 +58,23 @@ def main():
         return
 
     plt.figure(figsize=(8, 5))
-    plt.plot(beam_widths, accuracies, marker='o', linestyle='-', color='#3273dc')
+    # Only two beam widths remain, so points are not joined by a line (no trend is claimed)
+    plt.plot(beam_widths, accuracies, marker='o', linestyle='none', color='#3273dc')
     plt.xticks(beam_widths)
-    plt.ylim(0, 1)
+    plt.xlim(2, 6)
+    plt.ylim(0, 0.5)
+    plt.yticks([0, 0.1, 0.2, 0.3, 0.4, 0.5], ['0%', '10%', '20%', '30%', '40%', '50%'])
     plt.xlabel('Beam width')
-    plt.ylabel('Accuracy')
-    # plt.title('Beam width vs Accuracy for ToT (beam=1,3,5)')
+    plt.ylabel('Accuracy (%)')
+    # plt.title('Beam width vs Accuracy for ToT (beam=3,5)')
     plt.grid(axis='y', linestyle='--', alpha=0.7)
 
     for x, y in zip(beam_widths, accuracies):
         plt.text(x, y + 0.02, f'{y*100:.1f}%', ha='center', va='bottom')
 
     plt.tight_layout()
-    plt.show()
+    plt.savefig('fig_beam_accuracy.png', dpi=150)
+    print('Saved fig_beam_accuracy.png')
 
 
 if __name__ == '__main__':

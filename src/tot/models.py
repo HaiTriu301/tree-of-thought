@@ -50,7 +50,3 @@ def gpt_usage(backend="gpt-4"):
 def reset_usage():
     global completion_tokens, prompt_tokens
     completion_tokens = prompt_tokens = 0
-
-def reset_usage():
-    global completion_tokens, prompt_tokens
-    completion_tokens = prompt_tokens = 0

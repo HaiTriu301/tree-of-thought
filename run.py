@@ -5,6 +5,7 @@ import argparse
 from tot.tasks import get_task
 from tot.methods.bfs import solve, naive_solve
 from tot.models import gpt_usage
+import tot.models
 
 def run(args):
     task = get_task(args.task)
@@ -62,7 +63,7 @@ def parse_args():
     args = args.parse_args()
     return args
 
-
+tot.models.reset_usage()
 if __name__ == '__main__':
     args = parse_args()
     print(args)
