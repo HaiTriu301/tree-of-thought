@@ -1,5 +1,9 @@
 # Comparative Evaluation of ToT on Mathematical Reasoning: A Game of 24 Study
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23320412.svg)](https://doi.org/10.5281/zenodo.23320412)
+
+📄 **Paper:** [ToT_Game24_Report.pdf](paper/ToT_Game24_Report.pdf) · [Zenodo record](https://doi.org/10.5281/zenodo.23320412)
+
 This repository contains the code, run logs and plotting scripts for our course paper, a reproduction study of **Tree of Thoughts (ToT)** prompting on the Game of 24 benchmark with `gpt-3.5-turbo`.
 
 It is a fork of the official ToT implementation by Yao et al. ([princeton-nlp/tree-of-thought-llm](https://github.com/princeton-nlp/tree-of-thought-llm), MIT License). The search code, tasks and prompts are unchanged from the original; we added our GPT-3.5 run logs and the plotting scripts used in the paper.
